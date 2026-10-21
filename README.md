@@ -8,6 +8,8 @@ The concept & fine tuning till now was mine, I would like to acknowledge contrib
 > [!WARNING]
 > ## 🚧 Project Status: INCOMPLETE / WORK IN PROGRESS (WIP)
 > **Current Development Status**: Development is currently **paused** and will continue on a later date.  
+>
+> My goal was... to make the agent stimulate the LLM, similar to how brain need the input to think & give proper output, basically the level of human brain output qualitiy depends on various factors but the external are the level of input quality & detailing. This could with proper system prompt formatting could make small scale local LLM-VLM(multi-modality) autonomous enough to act as assistant/buddy/jarvis..etc. So those how are interested feel free to contribute & share ideas!!
 > 
 > The foundational architecture, native Win32 anonymous pipe inference client, dual C++ native modules (`jarvis-engine` and `jarvis-os-bridge`), Model Context Protocol (MCP) subsystem, interactive CLI REPL, and Windows installer are implemented and functional. However, advanced extensions, multi-monitor calibration, and end-to-end polish remain incomplete.
 > 
