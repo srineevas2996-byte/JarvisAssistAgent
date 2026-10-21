@@ -1,0 +1,56 @@
+# ==============================================================================
+# J.A.A (jarvis_assist_agent) - .gitignore
+# ==============================================================================
+
+# Rust build output
+/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Compiled executables & libraries in project root
+/*.exe
+/*.old.exe
+/*.obj
+/*.pdb
+/*.ilk
+/*.exp
+/*.lib
+!native_lib/*.lib
+/*.lnk
+
+# Root-level runtime DLLs copied during execution (canonical copies are in native_lib/)
+/*.dll
+
+# Runtime caches and kv states (exceeds GitHub 100MB limit)
+/cache/*
+!/cache/.gitkeep
+/test_log/*
+!/test_log/.gitkeep
+*.state
+
+# Temporary files and logs
+*.log
+in.txt
+out.log
+err.log
+debug_chat.py
+test_chat.json
+test_mano_p_init.*
+test_mtmd.*
+
+# Model weights (GGUF weights can be several GBs; download via /model pull)
+/models/*.gguf
+/models/*.bin
+!/models/README.md
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Distribution & Export archives
+/dist/
+/github_export/
+*.zip

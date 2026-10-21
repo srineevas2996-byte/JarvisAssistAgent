@@ -1,0 +1,9 @@
+{
+  "name": "os-navigator",
+  "command": "python",
+  "args": [
+    "D:\\OS_navigation skill\\.agents\\skills\\OS_navigation_metadata\\scripts\\mcp_server.py"
+  ],
+  "enabled": true,
+  "description": "Windows Desktop GUI Navigation & Control (inspect_screen, click, type, draw, erase)"
+}

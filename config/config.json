@@ -1,0 +1,17 @@
+{
+  "default_model": "mai-ui-2b.gguf",
+  "models_dir": "models",
+  "skills_dir": "skills",
+  "tools_dir": "tools",
+  "mcp_dir": "mcp",
+  "temperature": 0.1,
+  "max_context_tokens": 16384,
+  "num_ctx": 16384,
+  "max_agent_steps": 15,
+  "stream_output": true,
+  "active_skills": [
+    "jarvis_assistant",
+    "os_navigation"
+  ],
+  "disabled_tools": []
+}
