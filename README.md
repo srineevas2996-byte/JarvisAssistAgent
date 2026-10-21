@@ -4,7 +4,7 @@
 > *Zero Python heuristics in the core engine — ultra-fast startup, streaming token generation, ReAct autonomous tool-calling loop, native Win32 pipe IPC, GGUF scanning, SKILL.md runbooks, and full Model Context Protocol (MCP) integration.*
 
 ---
-
+The concept & fine tuning till now was mine, I would like to acknowledge contribution from "llama.cpp" for the core token endcoding, Google "Antigravity" coding agent for it bulk coding and implementation of the code based.
 > [!WARNING]
 > ## 🚧 Project Status: INCOMPLETE / WORK IN PROGRESS (WIP)
 > **Current Development Status**: Development is currently **paused** and will continue on a later date.  
